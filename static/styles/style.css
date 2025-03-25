@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(to right, #0e1c26, #2a454b, #294861);
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    text-shadow: 0px 0px 3px #000000;
+    transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.05);
+    text-shadow: 0px 2px 5px #000000;
+}
