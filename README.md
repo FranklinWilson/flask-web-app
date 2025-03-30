@@ -9,4 +9,5 @@ A Python web application using Flask
 3. Activiate venv: `.\.venv\Scripts\activate`
 
 ## Running the App
-Run the app at the CLI with: `python app.py`
+- Run the app at the CLI with python: `python app.py`
+- Or with the flask command: `flask run` <br>(If the file is not called 'app', use `flask --app <filename> run`)
